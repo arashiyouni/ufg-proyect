@@ -134,3 +134,8 @@ button {
     color: red; /* Color del ícono de equis */
     font-size: 27px;
 }
+
+/*colores adentro del input*/
+input::placeholder {
+    color: #dcdcdc;
+}
