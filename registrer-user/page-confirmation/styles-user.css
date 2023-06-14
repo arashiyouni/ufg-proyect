@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Futura";
+    src: url(font/FuturaBook.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.form-update-key-change {
+    text-align: center;
+    display: block;
+    width: 500px;
+    margin: 4px 4px 4px 4px;
+    background: white;
+    padding: 10px;
+    border-top: 35px solid #003A70;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 140px;
+    height: 40px;
+    background: #0075c9;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-text {
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.parentheses:not(:hover) {
+    color: #0075c9;
+}
+
+.underline {
+    text-decoration: underline;
+
+}
+
+.text-italic {
+    font-style: italic;
+}
