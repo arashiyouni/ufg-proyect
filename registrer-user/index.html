@@ -5,21 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css" />
-    <title>Cambio de contrseña</title>
+    <title>Registro de usuario</title>
 </head>
 <body>
     <main class="form-update-key-change"> 
     <div class="blue-block"><p></p></div>
-        <div class="card update-passsword">
+        <div class="card-update-passsword">
             <h3>Definir usuario:</h3>
             <nav>
                 <img src="image/usuario2-01.png" alt="icon contraseña" class="image-pass">
                 <input type="text" class="bar-text" placeholder="ce.">
             </nav>    
             <p class="text-bar-user">El usuario ya existe, intente de nuevo</p>
-            <button class="btn-view-user">
-                <p class="btn-view-text">Ver disponibilidad</p>
-            </button>
+            <div class="div-text-btn">
+                <button class="btn-view-user">
+                    <p class="btn-view-text">Ver disponibilidad</p>
+                </button>
+            </div>
         </div>
         <!-- tarjeta de contraseña-->
         <div class="card update-password">
@@ -39,20 +41,17 @@
         <!-- tarjeta de seguridad-->
         <div class="card card-security">
             <h3>Seguridad</h3>
-            <nav class="nav-bar">
-                <input type="password" class="progress-bar">
-            </nav>
-            <p>Seguridad minima x%</p>
+            <!--espacio en blanco para barra de progeso-->
+            <p>Seguridad minima</p>
         </div>
         <div class="card recomendation-password">
         <h3>Recomendaciones para contraseña</h3>
-            <nav class="nav-recomendation-pass">
                 <ol class="custom-list">
+                    <li>Debe tener 14 o más caracteres</li>
                     <li>Incluir al menos una letra mayúscula</li>
                     <li>Debe contener números</li>
                     <li>Debe tener al menos un símbolo</li>
                 </ol>
-            </nav>
         </div>
         <!--Registra un correo-->
         <div class="registrer-email">
@@ -67,9 +66,8 @@
             <nav>
                 <img src="image/email-01.png" alt="icon correo" class="image-pass">
                 <input type="text" class="bar-text" placeholder="correoejemplo@xmail.com">
-            </nav>  
-            <p>Servira en caso de necesitar recuperar la contraseña</p>
         </div>
+        <section>Servira en caso de necesitar recuperar la contraseña</section>
         <!--boton de cambiar-->
         <button> 
             <p class="btn-send">Cambiar</p>

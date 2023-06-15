@@ -1,3 +1,4 @@
+/*main css*/
 @font-face {
     font-family: "Futura";
     src: url(futura_font/FuturaBook.ttf);
@@ -94,6 +95,8 @@ nav{
     width: 470px;
     border-radius: 0px 10px 10px 0px;
     border: 1px solid #dcdcdc;
+    padding-left: 6px; /* Agrega espacio a la izquierda del texto */
+    text-indent: 6px; /* Desplaza el texto hacia la derecha */
 }
 /*boton enviar*/
 button {
@@ -106,6 +109,7 @@ button {
     background: #0075c9;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .btn-send {
@@ -113,6 +117,7 @@ button {
     font-weight: bold;
     font-size: 20px;
     color: white;
+    pointer-events: none;
 }
 
 

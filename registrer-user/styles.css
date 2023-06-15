@@ -1,3 +1,4 @@
+/*registro de usuario*/
 @font-face {
     font-family: "Futura";
     src: url(font/FuturaBook.ttf);
@@ -9,13 +10,15 @@ body {
 p{
     text-align: center;
 }
-.text-bar-user{
-    text-align:left;
-}
+
 .text-registrer{
     text-align: center;
 }
 
+section{
+    text-align: center;
+    margin-top: 0px;
+}
 /*top right botton left*/
 /*imagen con el icono de contraseña y sus propiedades*/
 .image-pass{
@@ -47,6 +50,32 @@ p{
     margin: 20px auto;
 }
 
+.card-define-user{
+    margin: 0px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.div-text-btn {
+    display: flex;
+    flex-direction: column;
+    /*margin: 0;
+    margin-right: 190px;*/
+    margin: 4px 40px 4px 1px;
+}
+.text-bar-user{
+    margin: 0px;
+    margin-right: 240px;
+    margin-top: 0px;
+
+}
+
+.text-registrer-personal{
+    border: 1px solid red;
+    margin: 0px, 40px, 50px 1px;
+}
 /*especificaciones de la sección de la barra de seguridad minima*/
 .progress-bar{
     display: flex;
@@ -72,7 +101,7 @@ p{
 
 /*contenido de las secciones principales*/
 nav{
-    margin: 20px 40px 20px 0px;
+    margin: 20px 40px 0px 0px;
     padding: 3px;
     /*border: 2px solid purple;*/
     display: flex;
@@ -95,12 +124,13 @@ nav{
     border-radius: 0px 10px 10px 0px;
     border: 1px solid #dcdcdc;
     /* Cambiar el color del texto del placeholder */
+    padding-left: 6px; 
+    text-indent: 6px;
+    margin-bottom: 0;
+}
 
-}
 /*color de los textos dentro de los inputs*/
-input::placeholder {
-    color: #dcdcdc;
-}
+
 /*boton enviar*/
 button {
     display: flex;
@@ -112,6 +142,7 @@ button {
     background: #0075c9;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .btn-send {
@@ -119,6 +150,7 @@ button {
     font-weight: bold;
     font-size: 20px;
     color: white;
+    pointer-events: none;
 }
 
 .btn-view-text{
@@ -126,13 +158,14 @@ button {
     font-weight: bold;
     font-size: 12px;
     color: white;
+    margin-right: 10px;
 }
 
 .btn-view-user{
     display: flex;
     justify-content: center;
     width: 160px;
-    height: 25px;
+    height: 35px;
     background: #0075C9;
     border: none;
     border-radius: 20px;

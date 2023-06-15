@@ -1,3 +1,4 @@
+/*Reinicio de contrseña*/
 @font-face {
     font-family: "Futura";
     src: url(font/FuturaBook.ttf);
@@ -8,6 +9,11 @@ body {
 }
 p{
     text-align: center;
+}
+
+section{
+    text-align: center;
+    margin-top: 0px;
 }
 
 .text-registrer{
@@ -70,7 +76,7 @@ p{
 
 /*contenido de las secciones principales*/
 nav{
-    margin: 20px 40px 20px 0px;
+    margin: 20px 40px 0px 0px;
     padding: 3px;
     /*border: 2px solid purple;*/
     display: flex;
@@ -92,6 +98,8 @@ nav{
     width: 470px;
     border-radius: 0px 10px 10px 0px;
     border: 1px solid #dcdcdc;
+    padding-left: 6px; 
+    text-indent: 6px;
 }
 /*boton enviar*/
 button {
@@ -104,6 +112,7 @@ button {
     background: #0075c9;
     border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .btn-send {
@@ -111,6 +120,7 @@ button {
     font-weight: bold;
     font-size: 20px;
     color: white;
+    pointer-events: none;
 }
 
 /*design registrer email */
