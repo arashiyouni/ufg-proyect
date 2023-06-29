@@ -113,16 +113,10 @@ button {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-}
-
-.btn-send {
-    margin: 0;
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
-    pointer-events: none;
+    font-weight: bold;
 }
-
 /*design registrer email */
 .margen-registrer{
     display: flex;
